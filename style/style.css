@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#play-music {
+    width: 350px;
+    height: 60px;
+    
+    color: #FFF;
+    background-color: #2881D4;
+    border: outset;
+
+    display: block;
+
+    margin: 200px auto;
+}
+
+#play-music:hover {
+    color: #2881D4;
+    background-color: #FFF;
+}
+
+#play-music:active {
+    border: inset;
+}
+
+#msc_area {
+    display: none;
+}
